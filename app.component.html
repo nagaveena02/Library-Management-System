@@ -1,0 +1,32 @@
+<mat-toolbar color="primary">
+  <span>MSWD</span>
+  <span class="example-spacer"></span>
+  <span>LIBRARY MANAGEMENT SYSTEM</span>
+  <span class="example-spacer"></span>
+  <span>ID: 190030944</span>
+</mat-toolbar>
+<div class="background_image">
+  <br><br>
+<div align="center">
+  <mat-card style="text-align:center;" class="example-card">
+    <br>
+    <h1 style="text-align:center;color:black;">LOGIN FORM</h1>
+    <mat-card-content>
+      <form action="/action_page.php">
+        <label for="username">Username:  </label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:  </label>
+        <input type="password" id="password" name="password"><br><br>
+      </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="example-button-row">
+        <button mat-raised-button color="primary">Submit</button><br><br>
+        <a href="">forgot password?</a>
+        <button mat-button color="warn">Register Now!!</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+  </div>
+</div>
+<router-outlet></router-outlet>
